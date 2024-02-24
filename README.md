@@ -22,15 +22,18 @@ You can explore the live demo of my portfolio here: [Live Demo](https://ballakav
 
 ## Screenshot
 
-![Balla Kavya Portfolio](https://ballakavya.vercel.app/screenshot.png)
+![Balla Kavya Portfolio](images/skills.png)
 
 ## Technologies Used
 
 Here are the technologies and frameworks I used to build my portfolio:
 
+- VSCode
 - ReactJS
+- Node.js
 - HTML/CSS
 - Bootstrap
+- Vercel
 
 ## Getting Started
 
