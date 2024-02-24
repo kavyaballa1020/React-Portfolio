@@ -1,4 +1,4 @@
-# React Portfolio
+# Portfolio
 
 ![Balla Kavya Portfolio](images/home.png)
 
