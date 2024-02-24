@@ -1,7 +1,7 @@
-```markdown
+
 # React Portfolio
 
-![Project Image]([link-to-your-project-image.png](https://ballakavya.vercel.app/))
+![Balla Kavya]([https://ballakavya.vercel.app/]
 
 > A brief description of your ReactJS  portfolio project.
 
