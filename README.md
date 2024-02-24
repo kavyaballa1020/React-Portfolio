@@ -22,7 +22,7 @@ Provide a brief introduction to your portfolio project. Mention the purpose, goa
 
 Include a link to the live demo of your portfolio. You can use the Vercel deployment URL or any other hosting service you prefer.
 
-[Live Demo](link-to-your-live-demo)
+[Live Demo](https://ballakavya.vercel.app/)
 
 ## Technologies Used
 
@@ -38,20 +38,20 @@ Provide instructions on how to set up the project locally for development.
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/your-portfolio.git
    ```
 
 2. Install dependencies:
 
-   ```bash
+   ```
    cd your-portfolio
    npm install
    ```
 
 3. Start the development server:
 
-   ```bash
+   ```
    npm start
    ```
 
@@ -64,10 +64,3 @@ Explain how you deployed your portfolio. If you used Vercel, provide a brief ove
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize the README to fit your project's specifics. Add sections or details that are relevant to your portfolio. Good luck! 🚀
-```
-
-Replace the placeholder text and URLs with your actual project details. This template includes sections for a project overview, demo link, technologies used, getting started guide, deployment information, and licensing. Adjust as needed based on the specifics of your portfolio.
