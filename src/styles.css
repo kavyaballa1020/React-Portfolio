@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+nav {
+    position: fixed !important;
+    display: flex !important;
+    align-items: center;
+    height: 50px;
+    backdrop-filter: blur(10px); /* Apply blur effect to the background */
+    transition: backdrop-filter 0.3s ease;
+    
+}
+
+nav a {
+    text-decoration: none !important;
+    margin-right: 30px; /* Adjust margin */
+    color: rgb(249, 249, 247);
+    font-size: 1.2rem !important;
+    font-weight: 600;
+}
+.navh3{
+    
+     color:'white';
+     font-family: "Great Vibes", cursive;
+     font-size: 1.6rem;
+     margin-right: 800px;
+     padding-left: 50px;
+}
+
+
+body {
+    background: linear-gradient(to bottom,rgb(57, 3, 64),rgb(29, 1, 43),rgb(13, 0, 13));
+    color: white;
+    background-repeat: no-repeat;
+   height: fit-content;
+   font-family: "Poppins", sans-serif;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.linkedin:hover {
+    background: #0f69b3;
+    color: #ffffff;
+}
+
+button.facebook:hover {
+    background: #405DE6;
+    color: #ffff;
+}
+
+button.github:hover {
+    background-color: #000;
+    color: #ffff;
+}
+
+button.x:hover {
+    background-color: black;
+    fill: #ffffff;
+}
+
+footer {
+   background: linear-gradient(to bottom,rgb(46, 2, 59),rgb(45, 4, 68),rgb(59, 4, 87));
+    padding-bottom: 46px;
+    padding-top: px;
+     margin-top: 115px;
+    height: 80px;
+    text-align: center;
+}
+
+.contact {
+  text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index:999999;
+    background-color: #110114;
+    background-image: url('./Assets/Pre.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#preloader-none{
+    opacity: 0;
+}
+.K{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right !important;
+    margin-right: 100px;
+    margin-top: 210px;
+}
+
+
+.skill-icon{
+  
+      border: 2px solid violet;
+      border-radius: 25px;
+      box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+      padding: 10px;
+      margin: 20px;
+      width: 70px;
+      height:70px;
+    text-align: center;
+      display: inline-table;
+      
+      
+}
+.skill-container{
+  /*  border: 3px solid rgb(111, 13, 150);
+    border-radius: 50px; */
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: inline-table;
+text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.heading{
+    font-size:40px ;
+    font-weight:400;
+    padding-top: 100px;
+    
+}
+.ColHome-Header{
+    padding-top: 80px;
+
+}
+.KI{
+    width: 350px;
+    height: 350px;
+   margin-right: 100px;
+    float: right;
+    margin-top: 200px;
+}
+.about{
+    height: 100vh;
+}
+.About{
+    
+    text-align: left;
+    margin-left: 50px;
+    font-size: large;
+    border: 2px solid violet;
+    border-radius: 25px;
+    box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+    border-radius: 20px;
+    padding: 80px;
+    width:500px;
+   display:inline-block;
+    margin-top: 200px; 
+    
+}
+.home-container{
+    text-align: left !important;
+    padding-left: 200px !important;
+    font-size: 30px !important;
+    font-weight: bolder; 
+    height: fit-content;
+}
+/* project section */
+.project-section {
+    position: relative !important;
+   padding-top: 70px !important;
+   padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    width: 60%;
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+  
+  .project-card {
+    margin-left: 100px;
+    padding-top: 50px 25px !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .project-card-img {
+    border-radius: 20px; /* Adjust the border radius as needed */
+  }
+  .project-card-view .btn{
+    margin-top: 10px;
+    text-decoration: none;
+   
+  }
+  .project-card-view .btn {
+    background: linear-gradient(to top,rgb(103, 1, 246),rgb(120, 6, 201),rgb(125, 5, 125));/* Set background color for primary buttons */
+    color: rgb(253, 250, 250);
+    padding: 10px;    
+    border-radius: 60px;/* Set border color for primary buttons */
+  }
+  .project-card-view img {
+    border-radius: 20px !important;
+  }
+  .project-card-view .card-img-top {
+     /* Adjust border size and color as needed */
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 40px; /* Remove padding */
+}
+
+
+  .project-card-view .card-body {
+    padding: 30px; /* Adjust padding as needed */
+    text-align: left !important;
+} 
+  .project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 680px !important;
+    margin-left: 10px;
+    padding-left: 40px;
+    border-radius: 40px;
+  }
+  .project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  }
+  .card-img-top {
+    padding: 20px; /* Adjust padding to decrease the overall size */
+    width: 300px; /* Adjust width to a smaller percentage */
+    height: 350px; /* Maintain aspect ratio */
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.project-heading{
+    text-align: center;
+    
+}
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-col {
+    padding: 0 15px;
+    width: calc(50% - 30px);   }  
+
+
+
+
+@media only screen and (max-width: 768px) {
+    nav {
+       
+        height: 50px;
+        backdrop-filter: blur(10px); /* Apply blur effect to the background */
+        transition: backdrop-filter 0.3s ease;
+        
+        
+    }
+ 
+    nav a {
+        margin-right: 0px; /* Adjust margin */
+        font-size: 1rem !important;
+        font-weight: 600;
+        margin-left: 15px;
+    
+    }
+
+    .navh3{
+        font-size: 0rem;
+        margin-right:0px;
+        padding-left: 0px;
+   }
+   .K{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: none !important;
+    margin-right: 10px;
+    margin-top: 70px;
+    padding-bottom: 0px;
+}
+.heading{
+    font-size:30px ;
+    font-weight:400;
+    padding-top: 0px !important;
+    padding-right: 18px;
+    
+}
+.home-container{
+    text-align: center !important;
+    padding-left: 20px !important;
+    font-size: 22px !important;
+    font-weight: bold; 
+}
+
+.ColHome-Header{
+    padding-top: 10px;
+
+}
+footer {
+    background: linear-gradient(to bottom,rgb(46, 2, 59),rgb(45, 4, 68),rgb(59, 4, 87));
+     padding-top: 1px;
+      margin-top: 95px;
+     height: 130px;
+     text-align: center;
+     padding-bottom: 0px;
+ }
+ 
+ .contact {
+   text-align: center;
+     font-weight: 400;
+     font-size: 15px;
+     
+ }
+
+
+  button {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+button.linkedin {
+    background: #0f69b3;
+    color: #ffffff;
+}
+
+button.facebook {
+    background: #007fae;
+    color: #ffff;
+}
+
+button.github{
+    background-color: #000;
+    color: #ffff;
+}
+
+button.x {
+    background-color: black;
+    fill: #ffffff;
+}
+body {
+   
+   height:fit-content ;
+}
+.About {
+    text-align: left;
+    margin: 80px 0 0 50px; /* combined margin properties */
+    font-size: 15px;
+    border: 2px solid violet;
+    box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+    border-radius: 20px; /* removed duplicate property */
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+}
+
+.KI {
+    width: 200px;
+    height: 200px;
+    margin: 90px 0 0 85px; 
+    float: none; 
+}
+.skill-icon {
+    border: 2px solid violet;
+    border-radius: 25px;
+    box-shadow: 1px 0 0 1px #fcfbfc; 
+    padding: 15px;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.skill-container {
+    margin: 20px 10px 100px; 
+    display: inline-flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto; 
+    align-items: center; 
+    justify-content: center; 
+}
+.about{
+    height: auto; 
+
+}
+.Skill-Heading{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.project-section {
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+    width: 90%; /* Adjust width for mobile devices */
+    margin: 0 auto; /* Center the section horizontally */
+  }
+  
+  .project-card {
+    margin-left: auto; /* Center align cards horizontally */
+    margin-right: auto; /* Center align cards horizontally */
+    padding-top: 25px !important;
+    height: auto !important; /* Adjust height to auto */
+    align-items: center; /* Center align items horizontally */
+  }
+  
+  .project-card-view {
+    padding-left: 20px; /* Adjust left padding */
+    padding-right: 20px; /* Adjust right padding */
+    padding-bottom: 50px;
+    border-radius: 20px; /* Adjust border radius */
+  }
+  
+  .project-card-view .card-body {
+    padding: 30px; /* Adjust padding as needed */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Adjust width to 100% */
+    height: auto; /* Auto adjust height */
+    border-radius: 20px; /* Adjust border radius */
+  }
+  
+  .project-col {
+    padding: 0; /* Remove padding */
+    margin-bottom: 20px; /* Adjust margin */
+    width: 100%; /* Adjust width to 100% */
+  }
+  
+  .project-row {
+    flex-direction: column; /* Change flex direction to column for mobile view */
+    align-items: center; /* Center align items */
+  }
+  .project-card-view .card-text {
+    text-align: left; /* Align text to the left */
+  }
+  .project-heading{
+    text-align: center;
+    font-size: 25px;  
+}
+    
+  }
+  
+
