@@ -1,6 +1,6 @@
 # React Portfolio
 
-![Balla Kavya Portfolio](https://ballakavya.vercel.app/screenshot.png)
+![Balla Kavya Portfolio](images/home.png)
 
 ## Table of Contents
 
