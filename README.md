@@ -1,14 +1,12 @@
-
 # React Portfolio
 
-![Balla Kavya]([https://ballakavya.vercel.app/]
-
-> A brief description of your ReactJS  portfolio project.
+![Balla Kavya Portfolio](https://ballakavya.vercel.app/screenshot.png)
 
 ## Table of Contents
 
 - [About](#about)
 - [Demo](#demo)
+- [Screenshot](#screenshot)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Deployment](#deployment)
@@ -16,41 +14,38 @@
 
 ## About
 
-Provide a brief introduction to your portfolio project. Mention the purpose, goals, and any other relevant information.
+My ReactJS portfolio is a reflection of my journey as a developer, showcasing my passion for crafting beautiful and functional web applications. With a clean and modern design, it provides visitors with an insight into my skills, experiences, and projects. Whether you're an employer, colleague, or fellow developer, this portfolio offers a glimpse into my expertise and the projects I'm proud to have worked on.
 
 ## Demo
 
-Include a link to the live demo of your portfolio. You can use the Vercel deployment URL or any other hosting service you prefer.
+You can explore the live demo of my portfolio here: [Live Demo](https://ballakavya.vercel.app/)
 
-[Live Demo](https://ballakavya.vercel.app/)
+## Screenshot
+
+![Balla Kavya Portfolio](https://ballakavya.vercel.app/screenshot.png)
 
 ## Technologies Used
 
-List the technologies and frameworks you used to build your portfolio.
+Here are the technologies and frameworks I used to build my portfolio:
 
 - ReactJS
 - HTML/CSS
-- Any other relevant technologies
+- Bootstrap
 
 ## Getting Started
 
-Provide instructions on how to set up the project locally for development.
+To set up the project locally for development, follow these steps:
 
 1. Clone the repository:
-
    ```
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/kavyaballa594/React-Portfolio.git
    ```
-
 2. Install dependencies:
-
    ```
-   cd your-portfolio
+   cd React-Portfolio
    npm install
    ```
-
 3. Start the development server:
-
    ```
    npm start
    ```
@@ -59,7 +54,15 @@ Provide instructions on how to set up the project locally for development.
 
 ## Deployment
 
-Explain how you deployed your portfolio. If you used Vercel, provide a brief overview of the deployment process.
+I deployed my portfolio using Vercel. The deployment process with Vercel is straightforward:
+
+1. Sign up for an account on [Vercel](https://vercel.com/).
+2. Install Vercel CLI globally: `npm install -g vercel`.
+3. Navigate to your project directory in the terminal.
+4. Run `vercel login` and follow the authentication process.
+5. Run `vercel --prod` and follow the prompts to deploy your project.
+
+Once deployed, Vercel provides you with a unique URL where your portfolio is accessible.
 
 ## License
 
