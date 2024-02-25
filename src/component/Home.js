@@ -39,7 +39,7 @@ function Home() {
             </svg>
         </button></a>
 
-        <a href="http://www.instagram.com/minnukota381" target="_blank" rel="noreferrer">
+        <a href="http://www.instagram.com/kavyaballa1020" target="_blank" rel="noreferrer">
             <button class="instagram">
                 <svg
                     viewBox="0 0 16 16"
