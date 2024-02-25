@@ -41,7 +41,7 @@ To set up the project locally for development, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/kavyaballa594/React-Portfolio.git
+   git clone https://github.com/kavyaballa1020/React-Portfolio.git
    ```
 2. Install dependencies:
    ```
