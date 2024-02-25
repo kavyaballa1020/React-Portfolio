@@ -40,7 +40,7 @@ function Home() {
         </button></a>
 
 
-        <a href="http://www.facebook.com/minnukota381" target="_blank">
+        <a href="http://www.facebook.com/kavyaballa1020" target="_blank">
         <button className="facebook">
             <svg width="30px" height="30px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path fill="currentColor" d="M17 1H3c-1.1 0-2 .9-2 2v14c0 1.101.9 2 2 2h7v-7H8V9.525h2v-2.05c0-2.164 1.212-3.684 3.766-3.684l1.803.002v2.605h-1.197c-.994 0-1.372.746-1.372 1.438v1.69h2.568L15 12h-2v7h4c1.1 0 2-.899 2-2V3c0-1.1-.9-2-2-2"/>
@@ -56,7 +56,7 @@ function Home() {
             </button></a>
 
 
-        <a href="http://www.twitter.com/minnukota381" target="_blank">
+        <a href="http://www.twitter.com/kavyaballa1020" target="_blank">
             <button className="x">
             <svg width="30px" height="30px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
                 <path d="M75.916 54.2L122.542 0h-11.05L71.008 47.06L38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303L89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086l-39.42-56.386h16.972L65.19 53.824l4.954 7.086l41.353 59.15h-16.97L60.782 71.793Z"/>
