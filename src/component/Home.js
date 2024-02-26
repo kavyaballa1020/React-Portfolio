@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import K from '../Assets/Kavya.JPG'
 import Type from './Type-Writer';
 
-
-
 function Home() {
   return (
     <section>
@@ -23,9 +21,7 @@ function Home() {
 
         </Row>
     </Container>
- 
-    
-    
+
       <footer> 
 
         <p className="contact">Contact me:</p>
@@ -77,8 +73,6 @@ function Home() {
             </svg>
             </button></a>
         </footer>
-
-
     </section>
   )
   
