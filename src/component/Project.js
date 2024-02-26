@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./Card";
-import Particle from "./Particle";
 import Hexa from "../Assets/Hexa.png";
 import Simple from "../Assets/Simple.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           <strong style={{ color: "violet" }}>  My Recent Works </strong>
