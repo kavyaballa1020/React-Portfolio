@@ -2,14 +2,12 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import K from '../Assets/Kavya.JPG'
 import Type from './Type-Writer';
-import Particle from './Particle';
 
 
 
 function Home() {
   return (
     <section>
-    <Particle />
     <Container className='home-container'>
         <Row>
         <Col md={7} >
