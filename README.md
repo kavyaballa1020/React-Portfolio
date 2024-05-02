@@ -53,6 +53,14 @@ To set up the project locally for development, follow these steps:
    npm start
    ```
 
+
+
+
+
+
+
+
+
 4. Open your browser and go to `http://localhost:3000`.
 
 ## Deployment
