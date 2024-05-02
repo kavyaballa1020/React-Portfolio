@@ -55,6 +55,12 @@ To set up the project locally for development, follow these steps:
 
 4. Open your browser and go to `http://localhost:3000`.
 
+
+
+
+
+
+
 ## Deployment
 
 I deployed my portfolio using Vercel. The deployment process with Vercel is straightforward:
