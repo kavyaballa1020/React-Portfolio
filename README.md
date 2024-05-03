@@ -67,6 +67,19 @@ I deployed my portfolio using Vercel. The deployment process with Vercel is stra
 
 Once deployed, Vercel provides you with a unique URL where your portfolio is accessible.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
