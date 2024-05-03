@@ -14,6 +14,12 @@
 
 ## About
 
+
+
+
+
+
+
 My ReactJS portfolio is a reflection of my journey as a developer, showcasing my passion for crafting beautiful and functional web applications. With a clean and modern design, it provides visitors with an insight into my skills, experiences, and projects. Whether you're an employer, colleague, or fellow developer, this portfolio offers a glimpse into my expertise and the projects I'm proud to have worked on.
 
 ## Demo
