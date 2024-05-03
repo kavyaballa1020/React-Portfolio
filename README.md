@@ -65,20 +65,7 @@ I deployed my portfolio using Vercel. The deployment process with Vercel is stra
 4. Run `vercel login` and follow the authentication process.
 5. Run `vercel --prod` and follow the prompts to deploy your project.
 
-Once deployed, Vercel provides you with a unique URL where your portfolio is accessible.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Once deployed, Vercel provides you with a unique URL where your portfolio is accessibl
 
 ## License
 
