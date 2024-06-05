@@ -129,8 +129,8 @@ footer {
 }
 
 .skill-icon:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  border-color: blue;
+  box-shadow: 0 4px 8px white;
+  border-color: violet;
   transform: scale(1.1);
 }
 
