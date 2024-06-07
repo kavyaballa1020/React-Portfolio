@@ -34,7 +34,7 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
   left: 0;
-  background: rgb(249, 249, 247); 
+  background: violet; 
 }
 
 .navh3 {
