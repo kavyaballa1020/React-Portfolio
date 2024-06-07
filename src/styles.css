@@ -1,29 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 nav {
+nav {
   position: fixed !important;
   display: flex !important;
   align-items: center;
   height: 50px;
   backdrop-filter: blur(10px);
-  transition: backdrop-filter 0.3s ease; 
+  transition: backdrop-filter 0.3s ease;
 }
+
 nav a {
   text-decoration: none !important;
   margin-right: 30px; 
   color: rgb(249, 249, 247);
   font-size: 1.2rem !important;
   font-weight: 600;
+  position: relative; 
 }
-.navh3{
-    
-  color:'white';
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: rgb(249, 249, 247);
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+  left: 0;
+  background: rgb(249, 249, 247); 
+}
+
+.navh3 {
+  color: white;
   font-family: "Great Vibes", cursive;
   font-size: 1.6rem;
   margin-right: 800px;
   padding-left: 50px;
 }
-
 
 body {
   background: linear-gradient(to bottom,rgb(57, 3, 64),rgb(29, 1, 43),rgb(13, 0, 13));
