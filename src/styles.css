@@ -6,24 +6,44 @@ nav {
   align-items: center;
   height: 50px;
   backdrop-filter: blur(10px);
-  transition: backdrop-filter 0.3s ease; 
+  transition: backdrop-filter 0.3s ease;
 }
+
 nav a {
   text-decoration: none !important;
   margin-right: 30px; 
   color: rgb(249, 249, 247);
   font-size: 1.2rem !important;
   font-weight: 600;
+  position: relative; 
 }
-.navh3{
-    
-  color:'white';
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: violet;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+  left: 0;
+  background: violet; 
+}
+
+.navh3 {
+  color: white;
   font-family: "Great Vibes", cursive;
   font-size: 1.6rem;
   margin-right: 800px;
   padding-left: 50px;
 }
-
 
 body {
   background: linear-gradient(to bottom,rgb(57, 3, 64),rgb(29, 1, 43),rgb(13, 0, 13));
@@ -115,20 +135,25 @@ footer {
     margin-right: 100px;
     margin-top: 210px;
 }
-.skill-icon{
-  
-      border: 2px solid violet;
-      border-radius: 25px;
-      box-shadow: 1px 0 0 1px rgb(252, 251, 252);
-      padding: 10px;
-      margin: 20px;
-      width: 70px;
-      height:70px;
-    text-align: center;
-      display: inline-table;
-      
-      
+.skill-icon {
+  border: 2px solid violet;
+  border-radius: 25px;
+  box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+  padding: 10px;
+  margin: 20px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  display: inline-table;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
+
+.skill-icon:hover {
+  box-shadow: 0 3px 6px violet;
+  border-color: violet;
+  transform: scale(1.1);
+}
+
 .skill-container{
   /*  border: 3px solid rgb(111, 13, 150);
     border-radius: 50px; */
