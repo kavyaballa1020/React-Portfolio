@@ -5,7 +5,7 @@ import Home from './component/Home.js';
 import About from './component/About.js';
 import Navbar from './component/Navbar.js';
 import Skills from './component/Skills.js';
-import Project from './component/Project.js';
+import Project from './component/Projects.js';
 import Pre from './component/Pre.js';
 
 function App() {
