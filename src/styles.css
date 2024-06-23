@@ -112,7 +112,6 @@ footer {
     padding-bottom: 46px;
     padding-top: px;
     margin-top: 115px;
-    width: 100%;
     height: 80px;
     text-align: center;
 }
@@ -222,8 +221,7 @@ h2 {
     padding-left: 200px !important;
     font-size: 30px !important;
     font-weight: bolder; 
-    height: 100vh;
-
+    height: fit-content;
 }
 
 /* project section */
