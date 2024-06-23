@@ -200,24 +200,23 @@ h2 {
 .ColHome-Header {
     padding-top: 80px;
 }
-/* Apply to all scrollbars */
 ::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 12px; 
 }
 
 ::-webkit-scrollbar-track {
   
-  background-color: #550158; /* color of the tracking area */
+  background-color: #550158; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #b101b4;/* color of the scroll thumb */
-  border-radius: 10px; /* roundness of the scroll thumb */
-  border: 3px solid #ae01b1; /* creates padding around the thumb */
+  background: #b101b4;
+  border-radius: 10px; 
+  border: 3px solid #ae01b1; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b102af; /* color of the scroll thumb when hovered */
+  background: #b102af; 
 }
 
 
