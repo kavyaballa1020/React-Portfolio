@@ -21,7 +21,6 @@ function Home() {
 
         </Row>
     </Container>
-
       <footer> 
 
         <p className="contact">Contact me:</p>
