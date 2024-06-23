@@ -19,7 +19,9 @@ function Home() {
                 <Type className='type'></Type>
             </Col>
 
-       
+        </Row>
+    </Container>
+
       <footer> 
 
         <p className="contact">Contact me:</p>
@@ -71,9 +73,6 @@ function Home() {
             </svg>
             </button></a>
         </footer>
-        </Row>
-    </Container>
-
     </section>
   )
   
