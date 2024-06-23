@@ -59,6 +59,8 @@ body {
   background-repeat: no-repeat;
   height: fit-content;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -141,21 +143,26 @@ footer {
 
 /* preloader */
 #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999999;
-    background-color: #35053e;
-    background-image: url('./Assets/Pre.svg');
-    background-repeat:no-repeat;
-    background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  z-index: 999999;
+  background-color: #35053e;
+  background-image: url('./Assets/Pre.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden; 
 }
 
 #preloader-none {
-    opacity: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease; 
+  visibility: hidden; 
 }
+
+
 
 
 
