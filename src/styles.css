@@ -110,9 +110,8 @@ button.x:hover {
 footer {
    background: linear-gradient(to bottom,rgb(46, 2, 59),rgb(45, 4, 68),rgb(59, 4, 87));
     padding-bottom: 46px;
-    padding-top: px;
     margin-top: 115px;
-    height: 80px;
+    height: 75px;
     text-align: center;
 }
 
