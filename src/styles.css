@@ -54,6 +54,7 @@ nav a:hover::after {
 
 /* home */
 body {
+  
   background: linear-gradient(to bottom,rgb(57, 3, 64),rgb(29, 1, 43),rgb(13, 0, 13));
   color: white;
   background-repeat: no-repeat;
@@ -165,7 +166,7 @@ footer {
 
 
 
-
+/* SKILLS */
 
 .skill-icon {
   border: 2px solid violet;
@@ -192,16 +193,19 @@ footer {
     margin-bottom: 100px;
     display: inline-table;
     text-align: center;
+    padding: 10px;
 }
 
 h2 {
     text-align: center;
 }
 
-.heading {
-    font-size: 40px;
-    font-weight: 400;
-    padding-top: 100px;
+.Skill-Heading {
+    font-size: 2.2em;
+    color: #f3f3f3;
+    text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(217, 11, 236, 0.648);
 }
 
 .ColHome-Header {
