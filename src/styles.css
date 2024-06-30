@@ -169,22 +169,31 @@ footer {
 /* SKILLS */
 
 .skill-icon {
-  border: 2px solid violet;
-  border-radius: 25px;
-  box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
   padding: 10px;
-  margin: 20px;
+  margin: 15px;
   width: 70px;
   height: 70px;
-  text-align: center;
-  display: inline-table;
-  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .skill-icon:hover {
-  box-shadow: 0 3px 6px violet;
-  border-color: violet;
-  transform: scale(1.1);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(177, 1, 180, 0.4);
+  border-color: #b101b4;
+}
+.skill-icon svg {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.skill-icon:hover svg {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.482));
 }
 
 .skill-container {
@@ -229,7 +238,10 @@ h2 {
 ::-webkit-scrollbar-thumb:hover {
   background: #b102af; 
 }
-
+@media (max-width: 768px) {
+  .skill-container {
+    margin-left: 0;
+  }
 
 
 
