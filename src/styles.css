@@ -58,65 +58,12 @@ body {
   background: linear-gradient(to bottom,rgb(57, 3, 64),rgb(29, 1, 43),rgb(13, 0, 13));
   color: white;
   background-repeat: no-repeat;
-  height: fit-content;
+  height: 100vh;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-button {
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-button.linkedin:hover {
-  background: #0f69b3;
-  color: #ffffff;
-}
-
-button.facebook:hover {
-  background: #405DE6;
-  color: #ffff;
-}
-
-button.instagram:hover {
-  background: linear-gradient(
-    45deg,
-    #405de6,
-    #5851db,
-    #833ab4,
-    #c13584,
-    #e1306c,
-    #fd1d1d,
-    #f56040,
-    #f77737,
-    #fcaf45,
-    #ffdc80
-  );
-  color: aliceblue;
-}
-button.github:hover {
-  background-color: #000;
-  color: #ffff;
-}
-
-button.x:hover {
-  background-color: black;
-  fill: #ffffff;
-}
-
-footer {
-   background: linear-gradient(to bottom,rgb(46, 2, 59),rgb(45, 4, 68),rgb(59, 4, 87));
-    padding-bottom: 46px;
-    margin-top: 115px;
-    height: 75px;
-    text-align: center;
-}
 
 .contact {
   text-align: center;
@@ -137,8 +84,61 @@ footer {
   font-size: 30px !important;
   font-weight: bolder; 
   height: fit-content;
+  position: relative;
+  z-index: 1;
+}
+.home-section {
+  position: relative;
+  overflow: hidden;
 }
 
+
+.heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #8A2BE2;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
 
 
 
@@ -308,7 +308,6 @@ h2 {
 .about {
     height: 100vh;
 }
-
 .About {
   text-align: left;
   margin: 170px 0 20px 50px; 
@@ -491,7 +490,6 @@ h2 {
     cursor: pointer;
     margin-left: 10px;
   }
-
   button.linkedin {
     background: #0f69b3;
     color: #ffffff;
