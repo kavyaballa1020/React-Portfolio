@@ -49,96 +49,24 @@ nav a:hover::after {
   padding-left: 50px;
 }
 
-
-
-
-/* home */
 body {
   
   background: linear-gradient(to bottom,rgb(57, 3, 64),rgb(29, 1, 43),rgb(13, 0, 13));
   color: white;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: fit-content;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
 
 
-.contact {
-  text-align: center;
-    font-weight: 400;
-    font-size: 20px;
-}
-.K {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  float: right !important;
-  margin-right: 100px;
-  margin-top: 210px;
-}
-.home-container {
-  text-align: left !important;
-  padding-left: 200px !important;
-  font-size: 30px !important;
-  font-weight: bolder; 
-  height: fit-content;
-  position: relative;
-  z-index: 1;
-}
-.home-section {
-  position: relative;
-  overflow: hidden;
+@media (min-width: 768px) {
+  .ColHome-Header {
+    text-align: start;
+  }
 }
 
-
-.heading {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.highlight {
-  color: #8A2BE2;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-}
-
-.tagline {
-  font-size: 1.2rem;
-  opacity: 0.8;
-}
-
-.profile-img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
-  transition: transform 0.3s ease;
-}
-
-.profile-img:hover {
-  transform: scale(1.05);
-}
-
-.wave {
-  animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% { transform: rotate( 0.0deg) }
-  10% { transform: rotate(14.0deg) }
-  20% { transform: rotate(-8.0deg) }
-  30% { transform: rotate(14.0deg) }
-  40% { transform: rotate(-4.0deg) }
-  50% { transform: rotate(10.0deg) }
-  60% { transform: rotate( 0.0deg) }
-  100% { transform: rotate( 0.0deg) }
-}
 
 
 
