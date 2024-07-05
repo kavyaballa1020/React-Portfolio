@@ -7,6 +7,7 @@ import Navbar from './component/Navbar/Navbar.js';
 import Skills from './component/Skills/Skills';
 import Project from './component/Projects/Projects.js';
 import Pre from './component/Preloader/Pre.js';
+import StarsCanvas from './component/StarCanvas.js';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,6 +22,7 @@ function App() {
   return (
     <div>
       <Pre load={loading} />
+      <StarsCanvas />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
