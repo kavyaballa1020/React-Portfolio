@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './styles.css';
-import Home from './component/Home.js';
-import About from './component/About.js';
-import Navbar from './component/Navbar.js';
-import Skills from './component/Skills.js';
-import Project from './component/Projects.js';
-import Pre from './component/Pre.js';
+import Home from './component/Home/Home.js';
+import About from './component/About/About.js';
+import Navbar from './component/Navbar/Navbar.js';
+import Skills from './component/Skills/Skills';
+import Project from './component/Projects/Projects.js';
+import Pre from './component/Preloader/Pre.js';
 
 function App() {
   const [loading, setLoading] = useState(true);
