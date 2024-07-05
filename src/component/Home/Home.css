@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 0 20px;
 }
 
 .image-wrapper {
@@ -49,11 +50,87 @@
   font-weight: bold;
   font-size: 2.5rem;
   color: violet;
-
 }
 
 .typewriter-wrapper {
   margin-top: 20px;
   font-size: 3rem;
   font-weight: bold;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+  .greeting {
+    font-size: 1.75rem;
+  }
+  .introduction {
+    font-size: 1.75rem;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .typewriter-wrapper {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  .greeting {
+    font-size: 1.5rem;
+  }
+  .introduction {
+    font-size: 1.5rem;
+  }
+  .name {
+    font-size: 1.75rem;
+  }
+  .typewriter-wrapper {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+  .greeting {
+    font-size: 1.25rem;
+  }
+  .introduction {
+    font-size: 1.25rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .typewriter-wrapper {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+  .greeting {
+    font-size: 1rem;
+  }
+  .introduction {
+    font-size: 1rem;
+  }
+  .name {
+    font-size: 1.25rem;
+  }
+  .typewriter-wrapper {
+    font-size: 1.5rem;
+  }
 }
