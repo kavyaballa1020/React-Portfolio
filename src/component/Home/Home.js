@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import K from '../Assets/Kavya.JPG';
+import K from '../../Assets/Kavya.JPG';
 import Type from './Type-Writer';
 import './Home.css';
 
