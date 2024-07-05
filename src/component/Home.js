@@ -1,30 +1,30 @@
-import React from 'react'
+import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import K from '../Assets/Kavya.JPG'
+import K from '../Assets/Kavya.JPG';
 import Type from './Type-Writer';
+import './Home.css';
 
 function Home() {
   return (
-    <section>
-    <Container className='home-container'>
-        <Row>
-        <Col md={7} >
-            <img className="K" src={K} alt='Kavya'/>
-            </Col>
-            <Col  md={5} className='ColHome-Header'>
-                <h1  className='heading'>
-                <p>Hi there!  👋🏻</p>
-                  I am <strong style={{color:"violet"}}>Kavya</strong></h1>
-               
-                <Type className='type'></Type>
-            </Col>
-
+    <section className="home-section">
+      <Container fluid className="home-container">
+        <Row className="justify-content-center align-items-center h-100">
+          <Col xs={12} className="text-center">
+            <div className="image-wrapper">
+              <img className="profile-image" src={K} alt='Kavya'/>
+            </div>
+            <h1 className="greeting">Hi there! <span className="wave">👋🏻</span></h1>
+            <h2 className="introduction">
+              I am <span className="name">Kavya</span>
+            </h2>
+            <div className="typewriter-wrapper">
+              <Type />
+            </div>
+          </Col>
         </Row>
-    </Container>
-      
+      </Container>
     </section>
-  )
-  
+  );
 }
 
-export default Home
+export default Home;
