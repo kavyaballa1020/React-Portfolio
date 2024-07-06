@@ -80,57 +80,57 @@
 
 @media (max-width: 992px) {
   .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
   .greeting {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .introduction {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .name {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
   .typewriter-wrapper {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 768px) {
   .profile-image {
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 250px;
   }
   .greeting {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .introduction {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .name {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .typewriter-wrapper {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 576px) {
   .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
   }
   .greeting {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .introduction {
-    font-size: 1rem;
+    font-size: 1.7rem;
   }
   .name {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .typewriter-wrapper {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
