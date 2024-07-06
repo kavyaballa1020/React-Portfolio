@@ -1,38 +1,38 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import { IoHome } from "react-icons/io5";
-import { FaUser } from "react-icons/fa6";
-import { VscLightbulbSparkle } from "react-icons/vsc";
-import { RiComputerFill } from "react-icons/ri";
+import { IoHome } from 'react-icons/io5';
+import { FaUser } from 'react-icons/fa';
+import { VscLightbulbSparkle } from 'react-icons/vsc';
+import { RiComputerFill } from 'react-icons/ri';
+import './Navbar.css'
 
-import './Navbar.css';
-
-function Navbar() {
+function CustomNavbar() {
   return (
-    <div>
-   
-      <nav>
-      <h3 className='navh3'> Balla Kavya</h3>
-        <NavLink to="/">
-          <IoHome /> Home
-        </NavLink>
+    <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar.Brand>Balla Kavya</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link as={NavLink} to="/" exact>
+            <IoHome /> Home
+          </Nav.Link>
 
-        <NavLink to="about">
-          <FaUser /> About
-        </NavLink>
+          <Nav.Link as={NavLink} to="/about">
+            <FaUser /> About
+          </Nav.Link>
 
-        <NavLink to='skills'>
-        <VscLightbulbSparkle />
-         Skills
-        </NavLink>
+          <Nav.Link as={NavLink} to="/skills">
+            <VscLightbulbSparkle /> Skills
+          </Nav.Link>
 
-        <NavLink to='projects'>
-        <RiComputerFill style={{marginTop:"2px"}} />
-         Projects
-        </NavLink>
-      </nav>
-    </div>
+          <Nav.Link as={NavLink} to="/projects">
+            <RiComputerFill style={{ marginTop: '2px' }} /> Projects
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default CustomNavbar;
