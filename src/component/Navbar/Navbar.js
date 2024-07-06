@@ -1,6 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { AiOutlineBulb, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { IoHome } from "react-icons/io5";
+import { FaUser } from "react-icons/fa6";
+import { VscLightbulbSparkle } from "react-icons/vsc";
+import { RiComputerFill } from "react-icons/ri";
+
+import './Navbar.css';
 
 function Navbar() {
   return (
@@ -9,20 +14,20 @@ function Navbar() {
       <nav>
       <h3 className='navh3'> Balla Kavya</h3>
         <NavLink to="/">
-          <AiOutlineHome /> Home
+          <IoHome /> Home
         </NavLink>
 
         <NavLink to="about">
-          <AiOutlineUser /> About
+          <FaUser /> About
         </NavLink>
 
         <NavLink to='skills'>
-        <AiOutlineBulb />
+        <VscLightbulbSparkle />
          Skills
         </NavLink>
 
         <NavLink to='projects'>
-        <AiOutlineFundProjectionScreen style={{marginTop:"2px"}} />
+        <RiComputerFill style={{marginTop:"2px"}} />
          Projects
         </NavLink>
       </nav>

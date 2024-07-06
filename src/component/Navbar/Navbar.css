@@ -1,0 +1,45 @@
+nav {
+    position: fixed !important;
+    display: flex !important;
+    align-items: center;
+    height: 70px;
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.3s ease;
+    z-index: 1000;
+  }
+  
+  nav a {
+    text-decoration: none !important;
+    margin-right: 30px; 
+    color: rgb(249, 249, 247);
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    position: relative; 
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: violet;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+    left: 0;
+    background: violet; 
+  }
+  
+  .navh3 {
+    color: white;
+    font-family: "Great Vibes", cursive;
+    font-size: 1.6rem;
+    margin-right: 800px;
+    padding-left: 50px;
+  }
