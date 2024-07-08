@@ -5,6 +5,7 @@ import { IoHome } from 'react-icons/io5';
 import { FaUser } from 'react-icons/fa';
 import { VscLightbulbSparkle } from 'react-icons/vsc';
 import { RiComputerFill } from 'react-icons/ri';
+
 import './Navbar.css'
 
 function CustomNavbar() {
@@ -15,19 +16,19 @@ function CustomNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link as={NavLink} to="/" exact>
-            <IoHome /> Home
+            <IoHome style={{ color: 'violet' }} /> Home
           </Nav.Link>
 
           <Nav.Link as={NavLink} to="/about">
-            <FaUser /> About
+            <FaUser style={{ color: 'violet' }} /> About
           </Nav.Link>
 
           <Nav.Link as={NavLink} to="/skills">
-            <VscLightbulbSparkle /> Skills
+            <VscLightbulbSparkle style={{ color: 'violet' }} /> Skills
           </Nav.Link>
 
           <Nav.Link as={NavLink} to="/projects">
-            <RiComputerFill style={{ marginTop: '2px' }} /> Projects
+            <RiComputerFill style={{ color: 'violet', marginTop: '2px' }} /> Projects
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
