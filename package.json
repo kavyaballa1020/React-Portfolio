@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.14",
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "@testing-library/jest-dom": "^6.4.6",
