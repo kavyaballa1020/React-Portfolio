@@ -1,0 +1,138 @@
+/* SKILLS */
+
+.skill-icon {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    width: 90px;
+    height: 90px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+    
+  }
+  .skill-icon::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.079) 0%, rgba(255,255,255,0) 80%);
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .skill-icon:hover::before {
+    transform: scale(1);
+  }
+  .skill-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(177, 1, 180, 0.4);
+    border-color: #b101b4;
+  }
+  .skill-icon svg {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-container {
+      margin-left: 300px;
+      margin-top: 80px;
+      margin-bottom: 100px;
+      display: inline-table;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+  }
+  .skill-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 80%);
+    transform: rotate(30deg);
+    pointer-events: none;
+  }
+  h2 {
+      text-align: center;
+  }
+  
+  .Skill-Heading {
+      font-size: 2.2em;
+      color: #f3f3f3;
+      text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(217, 11, 236, 0.648);
+  }
+  .Skill-Heading::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, #b101b4, #550158);
+    margin: 10px auto;
+    border-radius: 12px;
+  }
+  .ColHome-Header {
+      padding-top: 80px;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .skill-icon:nth-child(3n) {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .skill-icon:nth-child(3n+1) {
+    animation: float 6s ease-in-out infinite 2s;
+  }
+  
+  .skill-icon:nth-child(3n+2) {
+    animation: float 6s ease-in-out infinite 4s;
+  }
+  @media (max-width: 768px) {
+    .skill-container {
+      margin-left: 0;
+    }
+    .skill-icon {
+        border: 2px solid violet;
+        border-radius: 25px;
+        box-shadow: 1px 0 0 1px #fcfbfc;
+        padding: 15px;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .skill-container {
+        margin: 20px 10px 100px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        text-align: center;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+      }
+      .Skill-Heading {
+        margin-top: 30px;
+        font-size: 20px;
+      }
+  }
+  

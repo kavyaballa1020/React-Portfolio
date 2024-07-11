@@ -1,0 +1,144 @@
+.project-section {
+    position: relative !important;
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    width: 60%;
+    margin: 0 auto; 
+}
+
+.project-card {
+    margin-left: 100px;
+    padding-top: 50px 25px !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card-img {
+    border-radius: 20px; 
+}
+
+.project-card-view .btn {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.project-card-view .btn {
+    background: linear-gradient(to top,rgb(249, 0, 141),rgb(255, 0, 76),rgb(255, 1, 94));
+    color: rgb(253, 250, 250);
+    padding: 10px;    
+    border-radius: 60px;
+}
+
+.project-card-view img {
+    border-radius: 20px !important;
+}
+
+.project-card-view .card-img-top {
+    margin-top: 20px;
+    border-radius: 40px; 
+}
+
+.project-card-view .card-body {
+    padding: 30px;
+    text-align: left !important;
+} 
+
+.project-card-view {
+    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 680px !important;
+    margin-left: 10px;
+    padding-left: 40px;
+    border-radius: 40px;
+}
+
+.project-card-view:hover {
+    transform: scale(1.02) !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+
+.card-img-top {
+    padding: 20px; 
+    width: 300px; 
+    height: 350px; 
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.project-heading {
+    text-align: center;
+}
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-col {
+    padding: 0 15px;
+    width: calc(50% - 30px);
+}
+
+@media only screen and (max-width: 768px) {
+    .project-section {
+        padding-top: 50px !important;
+        padding-bottom: 30px !important;
+        width: 90%;
+        margin: 0 auto;
+      }
+    
+      .project-card {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px !important;
+        height: auto !important;
+        align-items: center;
+      }
+    
+      .project-card-view {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        border-radius: 20px;
+      }
+    
+      .project-card-view .card-body {
+        padding: 30px;
+        text-align: left;
+      }
+    
+      .card-img-top {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+      }
+    
+      .project-col {
+        padding: 0;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    
+      .project-row {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .project-card-view .card-text {
+        text-align: left;
+      }
+    
+      .project-heading {
+        text-align: center;
+        font-size: 25px;
+      }
+    }
+    
+

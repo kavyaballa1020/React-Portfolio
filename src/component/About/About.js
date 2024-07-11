@@ -1,5 +1,6 @@
 import React from 'react'
 import K_illustration from '../../Assets/K_illustration.svg'
+import './About.css'
 function About() {
   return (
     <div className='about'>

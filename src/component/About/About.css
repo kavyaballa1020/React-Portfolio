@@ -1,0 +1,121 @@
+/* About */
+.KI {
+    width: 381px;
+    height: 381px;
+    margin-right: 100px !important;
+    margin-top: 180px;
+    float: right;
+  }
+  
+  .about {
+      height: 100vh;
+  }
+  .About {
+    text-align: left;
+    margin: 170px 0 20px 50px; 
+    font-size: large;
+    border: 2px solid violet;
+    border-radius: 20px;
+    box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+    padding: 40px; 
+    width: 800px;
+    display: inline-block;
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      min-height: 100vh;
+      height: fit-content;
+    }
+  
+    nav {
+      height: 50px;
+      backdrop-filter: blur(10px);
+      transition: backdrop-filter 0.3s ease;
+    }
+  
+    nav a {
+      margin-right: 0px;
+      font-size: 1rem !important;
+      font-weight: 600;
+      margin-left: 15px;
+    }
+  
+    .navh3 {
+      font-size: 0rem;
+      margin-right: 0px;
+      padding-left: 0px;
+    }
+  
+    .K {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      float: none !important;
+      margin-right: 10px;
+      margin-top: 70px;
+      padding-bottom: 0px;
+    }
+  
+    .heading {
+      font-size: 30px;
+      font-weight: 400;
+      padding-top: 0px !important;
+      padding-right: 18px;
+    }
+  
+    .home-container {
+      text-align: center !important;
+      padding-left: 20px !important;
+      font-size: 22px !important;
+      font-weight: bold;
+    }
+  
+    .ColHome-Header {
+      padding-top: 10px;
+    }
+  
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to bottom,rgb(46, 2, 59),rgb(45, 4, 68),rgb(59, 4, 87));
+      padding-top: 1px;
+      height: 130px;
+      text-align: center;
+      padding-bottom: 0px;
+    }
+  
+    .contact {
+      text-align: center;
+      font-weight: 400;
+      font-size: 15px;
+    }
+  
+  
+  
+    button.x {
+      background-color: black;
+      fill: #ffffff;
+    }
+  
+    .About {
+      text-align: left;
+      margin: 80px 0 0 50px;
+      font-size: 15px;
+      border: 2px solid violet;
+      box-shadow: 1px 0 0 1px rgb(252, 251, 252);
+      border-radius: 20px;
+      padding: 10px;
+      width: 250px;
+      display: inline-block;
+    }
+  
+    .KI {
+      width: 200px;
+      height: 200px;
+      margin: 90px 0 0 85px;
+      float: none;
+    }
+  
+  }  

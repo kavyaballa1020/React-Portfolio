@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./Card";
 import Hexa from "../../Assets/Hexa.png";
 import Simple from "../../Assets/Simple.png";
+import './projects.css';
 function Projects() {
   return (
     <Container fluid className="project-section">
