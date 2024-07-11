@@ -6,6 +6,7 @@ import Navbar from './component/Navbar/Navbar.js';
 import Skills from './component/Skills/Skills';
 import Project from './component/Projects/Projects.js';
 import StarsCanvas from './component/StarCanvas.js';
+import './App.css';
 
 function App() {
  
