@@ -3,7 +3,7 @@
   display: flex !important;
   align-items: center;
   height: 70px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); 
   transition: backdrop-filter 0.3s ease;
   z-index: 1000;
   width: 100%;
@@ -42,7 +42,7 @@
   color: white;
   font-family: "Great Vibes", cursive;
   font-size: 1.6rem;
-  margin-right: auto; /* Updated to align the brand on small screens */
+  margin-right: auto; 
   padding-left: 50px; 
 }
 
@@ -61,22 +61,43 @@
 
 @media (min-width: 992px) {
   .custom-toggler {
-    display: none; /* Hide toggler button on large screens */
+    display: none; 
   }
 
   .navbar-collapse {
-    display: flex !important; /* Ensure Navbar.Collapse is always visible on large screens */
+    display: flex !important; 
     justify-content: flex-end;
   }
 }
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    display: none; /* Hide Navbar.Collapse on small screens */
+    display: none;
+    position: fixed;
+    top: 70px; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust opacity and color as desired */
+    z-index: 1000;
+    text-align: center;
   }
 
   .navbar-collapse.show {
-    display: block !important; /* Show Navbar.Collapse when toggler is clicked */
-    backdrop-filter: blur(10px);
+    display: block !important;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; /* Adjust spacing from top */
+  }
+
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+    color: white !important; /* Ensure text color contrasts well */
   }
 }
