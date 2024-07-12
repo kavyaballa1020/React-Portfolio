@@ -58,6 +58,10 @@
 .custom-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+.navbar-collapse.show .navbar-nav {
+  background-image: linear-gradient(to left, rgba(27, 20, 41, 0.769), rgba(20, 15, 35, 0.774)) !important;
+
+}
 
 @media (min-width: 992px) {
   .custom-toggler {
@@ -79,7 +83,7 @@
     right: 0;
     bottom: 0;
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.9); /* Adjust opacity and color as desired */
+    background-color: rgb(0, 0, 0) !important; /* Adjust opacity and color as desired */
     z-index: 1000;
     text-align: center;
   }
@@ -93,11 +97,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px; /* Adjust spacing from top */
+    padding-top: 20px; 
   }
-
   .navbar-nav .nav-link {
     margin: 10px 0;
-    color: white !important; /* Ensure text color contrasts well */
+    color: white !important; 
   }
 }
