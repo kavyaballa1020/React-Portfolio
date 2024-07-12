@@ -9,7 +9,7 @@ import './Navbar.css';
 
 function CustomNavbar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar variant="dark" expand="lg">
       <Navbar.Brand>Balla Kavya</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
