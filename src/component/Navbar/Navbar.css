@@ -41,8 +41,7 @@
 .navbar-brand {
   color: white;
   font-family: 'Brush Script MT', cursive;
-  font-size: 1.6rem;
-  font-weight: bolder;
+  font-size: 2rem !important;
   margin-right: auto; 
   padding-left: 50px; 
   font-style:italic;
