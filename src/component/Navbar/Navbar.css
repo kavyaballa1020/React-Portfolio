@@ -40,11 +40,13 @@
 
 .navbar-brand {
   color: white;
-  /* font-family: "Great Vibes", cursive; */
+  /* font-family:'Times New Roman', Times, serif; */
+  /* font-family:Arial, Helvetica, sans-serif; */
   font-size: 1.6rem;
+  font-weight: bolder;
   margin-right: auto; 
   padding-left: 50px; 
-  font-style: italic;
+  font-style:italic;
 }
 
 .custom-toggler {
