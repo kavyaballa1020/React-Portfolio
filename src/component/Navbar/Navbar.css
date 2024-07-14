@@ -7,9 +7,11 @@
   transition: backdrop-filter 0.3s ease;
   z-index: 1000;
   width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   background: transparent !important; 
 }
-
 .navbar-nav .nav-link {
   text-decoration: none !important;
   margin-right: 30px;
