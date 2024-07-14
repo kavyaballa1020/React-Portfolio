@@ -1,7 +1,7 @@
 /* SKILLS */
 
 .skill-container {
-  max-width: 00px;
+  max-width: 1100px;
   margin: 80px auto 100px;
   padding: 30px;
   background: rgba(255, 255, 255, 0.05);
@@ -65,7 +65,7 @@
 .skill-icon:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(177, 1, 180, 0.4);
-  border-color: #b101b4;
+  border-color: #5201b4;
 }
 
 .skill-icon svg {
