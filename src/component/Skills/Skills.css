@@ -51,7 +51,7 @@
   position: relative;
   letter-spacing: 2px;
   padding: 20px 0;
-  background: linear-gradient(45deg,violet,rgb(246, 112, 246));
+  background: linear-gradient(45deg,violet,rgb(246, 174, 246));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -65,11 +65,10 @@
   height: 4px;
   background-color: #8f0097;
   border-radius: 2px;
-}
-.skills-heading::after {
   bottom: 0;
   width: 120px;
 }
+
 
 .skills-heading:hover {
   animation: pulse 1.5s infinite;
