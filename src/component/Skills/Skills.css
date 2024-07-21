@@ -46,7 +46,6 @@
   margin-bottom: 50px;
   color: #ffffff;
   font-family: 'Montserrat', Arial, sans-serif;
-  /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
   position: relative;
   letter-spacing: 2px;
   padding: 20px 0;
@@ -71,14 +70,6 @@
   animation: neon 1.5s ease-in-out infinite alternate;
 }
 
-@keyframes neon {
-  from {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-  }
-  to {
-    text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #ff00de, 0 0 17.5px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 37.5px #ff00de;
-  }
-}
 
 .row.PL, .row.WT, .row.DB, .row.TP {
   display: flex;
@@ -128,7 +119,7 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.055) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(18, 17, 17, 0.055) 0%, rgba(255,255,255,0) 70%);
   transform: rotate(45deg);
   transition: all 0.8s ease;
   z-index: 1;
