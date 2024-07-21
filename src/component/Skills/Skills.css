@@ -41,7 +41,7 @@
 
 .skills-heading {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 800;
   margin-bottom: 60px;
   color: #ffffff;
@@ -84,17 +84,15 @@
 
 .col-skills {
   width: 20%;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 20px;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   margin: 20px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.07);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -124,7 +122,6 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(24, 23, 23, 0.059) 0%, rgba(255,255,255,0) 70%);
   transform: rotate(45deg);
   transition: all 1s ease;
   z-index: 1;
