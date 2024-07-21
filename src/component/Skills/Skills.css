@@ -83,14 +83,14 @@
 }
 
 .col-skills {
-  width: 20%;
+  width: 22%;
   padding: 30px;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 20px;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  margin: 20px;
+  margin: 20px 1.5%;
   position: relative;
   overflow: hidden;
   border: 2px solid rgba(255, 255, 255, 0.171);
@@ -146,6 +146,20 @@
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
 }
 
+@media (max-width: 1200px) {
+  .col-skills {
+    width: 30%;
+    margin: 20px 1.5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-skills {
+    width: 47%;
+    margin: 20px 1.5%;
+  }
+}
+
 @media (max-width: 576px) {
   .skills-container {
     padding-top: 50px;
@@ -168,9 +182,9 @@
   }
 
   .col-skills {
-    width: 100%;
+    width: 47%;
     padding: 20px;
-    margin: 10px 0;
+    margin: 10px 1.5%;
   }
 
   .skill-icon {
