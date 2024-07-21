@@ -93,7 +93,7 @@
   margin: 20px;
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.171);
 }
 
 .col-skills:hover {
