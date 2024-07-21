@@ -41,17 +41,25 @@
 
 .skills-heading {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 800;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #ffffff;
   font-family: 'Montserrat', Arial, sans-serif;
   position: relative;
-  letter-spacing: 2px;
-  padding: 20px 0;
-  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  letter-spacing: 3px;
+  padding: 30px 0;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: gradientFlow 5s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
 }
 
 .skills-heading::after {
@@ -63,53 +71,63 @@
   background: linear-gradient(90deg, #ff00ff, #00ffff);
   border-radius: 2px;
   bottom: 0;
-  width: 150px;
+  width: 200px;
+  box-shadow: 0 0 20px rgba(255,0,255,0.7);
 }
 
 .skills-heading:hover {
   animation: neon 1.5s ease-in-out infinite alternate;
 }
 
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #ff00de, 0 0 17.5px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 37.5px #ff00de;
+  }
+}
 
 .row.PL, .row.WT, .row.DB, .row.TP {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .col-skills {
   width: 20%;
-  padding: 30px;
+  padding: 40px;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border-radius: 15px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  margin: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.07);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .col-skills:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
 }
 
 .skill-icon {
-  font-size: 4.5rem;
-  margin-bottom: 20px;
+  font-size: 5rem;
+  margin-bottom: 25px;
   position: relative;
   z-index: 2;
   transition: all 0.5s ease;
+  color: #fff;
 }
 
 .col-skills:hover .skill-icon {
-  transform: scale(1.2) rotate(10deg);
-  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.7));
+  transform: scale(1.2) rotate(15deg);
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
 }
 
 .col-skills::before {
@@ -119,16 +137,16 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(18, 17, 17, 0.055) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
   transform: rotate(45deg);
-  transition: all 0.8s ease;
+  transition: all 1s ease;
   z-index: 1;
 }
 
 .col-skills:hover::before {
   top: -75%;
   left: -75%;
-  transform: rotate(90deg);
+  transform: rotate(120deg);
 }
 
 .col-skills::after {
@@ -145,7 +163,7 @@
 
 .col-skills:hover::after {
   transform: scaleX(1);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width: 992px) {
@@ -158,10 +176,16 @@
   .col-skills {
     width: 33.33%;
   }
+  .skills-heading {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 576px) {
   .col-skills {
     width: 50%;
+  }
+  .skills-heading {
+    font-size: 2.5rem;
   }
 }
