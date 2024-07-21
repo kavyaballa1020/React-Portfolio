@@ -37,8 +37,6 @@
   max-width: 1200px;
   padding-top: 100px;
   border-radius: 20px;
-  background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(25,25,25,0.8) 100%);
-  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 }
 
 .skills-heading {
@@ -75,19 +73,6 @@
   bottom: 0;
   width: 200px;
   box-shadow: 0 0 20px rgba(255,0,255,0.7);
-}
-
-.skills-heading:hover {
-  animation: neon 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes neon {
-  from {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-  }
-  to {
-    text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #ff00de, 0 0 17.5px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 37.5px #ff00de;
-  }
 }
 
 .row.PL, .row.WT, .row.DB, .row.TP {
@@ -139,7 +124,7 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+  background: radial-gradient(circle, rgba(24, 23, 23, 0.059) 0%, rgba(255,255,255,0) 70%);
   transform: rotate(45deg);
   transition: all 1s ease;
   z-index: 1;
