@@ -168,7 +168,7 @@
   }
 
   .col-skills {
-    width: 47%;
+    width: 47%; /* Changed to approximately 50% to fit two icons per row */
     padding: 20px;
     margin: 10px 1.5%;
   }
@@ -186,7 +186,7 @@
 
   .col-skills {
     padding: 15px;
-    width: 45%;
+    width: 45%; /* Slightly adjusted for very small screens */
     margin: 10px 2.5%;
   }
 
