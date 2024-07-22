@@ -146,20 +146,6 @@
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 1200px) {
-  .col-skills {
-    width: 30%;
-    margin: 20px 1.5%;
-  }
-}
-
-@media (max-width: 992px) {
-  .col-skills {
-    width: 47%;
-    margin: 20px 1.5%;
-  }
-}
-
 @media (max-width: 576px) {
   .skills-container {
     padding-top: 50px;
@@ -200,6 +186,8 @@
 
   .col-skills {
     padding: 15px;
+    width: 45%;
+    margin: 10px 2.5%;
   }
 
   .skill-icon {
