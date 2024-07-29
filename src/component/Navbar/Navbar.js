@@ -5,6 +5,7 @@ import { IoHome } from 'react-icons/io5';
 import { FaUser } from 'react-icons/fa';
 import { VscLightbulbSparkle } from 'react-icons/vsc';
 import { RiComputerFill } from 'react-icons/ri';
+import { FaFileAlt, FaEnvelope } from 'react-icons/fa';
 import './Navbar.css';
 
 function CustomNavbar() {
@@ -25,6 +26,12 @@ function CustomNavbar() {
           </Nav.Link>
           <Nav.Link as={NavLink} to="/projects">
             <RiComputerFill style={{ color: 'violet', marginTop: '2px' }} /> Projects
+          </Nav.Link>
+          <Nav.Link as={NavLink} to="/resume">
+            <FaFileAlt style={{ color: 'violet' }} /> Resume
+          </Nav.Link>
+          <Nav.Link as={NavLink} to="/contact">
+            <FaEnvelope style={{ color: 'violet' }} /> Contact
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
