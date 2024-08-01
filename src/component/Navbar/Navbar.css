@@ -1,4 +1,3 @@
-/* General navbar styling */
 .navbar {
   position: fixed !important;
   display: flex !important;
@@ -68,9 +67,7 @@
   background-image: linear-gradient(to left, rgba(27, 20, 41, 0.769), rgba(20, 15, 35, 0.774)) !important;
 }
 
-/* Media Queries */
 
-/* For screens larger than 992px (desktops) */
 @media (min-width: 992px) {
   .custom-toggler {
     display: none; 
@@ -82,17 +79,16 @@
   }
 }
 
-/* For screens smaller than 992px (tablets and smaller devices) */
 @media (max-width: 991px) {
   .navbar-collapse {
     display: none;
     position: fixed;
-    top: 70px; /* Adjust as needed */
+    top: 70px; 
     left: 0;
     right: 0;
     bottom: 0;
     backdrop-filter: blur(10px);
-    background-color: rgb(0, 0, 0) !important; /* Adjust opacity and color as desired */
+    background-color: rgb(0, 0, 0) !important; 
     z-index: 1000;
     text-align: center;
   }
@@ -115,19 +111,18 @@
   }
 }
 
-/* For screens smaller than 768px (phones) */
 @media (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.5rem !important; /* Smaller font size for brand */
-    padding-left: 20px; /* Reduced padding for smaller screens */
+    font-size: 1.5rem !important; 
+    padding-left: 20px; 
   }
 
   .navbar-nav .nav-link {
-    font-size: 1rem !important; /* Smaller font size for links */
-    margin-right: 20px; /* Reduced margin for links */
+    font-size: 1rem !important; 
+    margin-right: 20px; 
   }
 
   .custom-toggler {
-    font-size: 1.2rem; /* Slightly smaller font size for the toggler */
+    font-size: 1.2rem; 
   }
 }
