@@ -21,7 +21,7 @@ function Projects() {
         </p>
         <Row className="project-row">
           {[
-            { img: Hexa, title: "HexaGenius Calculator", description: "A user-friendly Number System Calculator web application for effortless conversion between Decimal, Binary, Octal, and Hexadecimal.", github: "https://github.com/kavyaballa1020/HexaGenius-Calculator?tab=readme-ov-file", demo: "https://hexagenius-calculator.onrender.com/" },
+            { img: Hexa, title: "HexaGenius Calculator", description: "A user-friendly Number System Calculator web application for effortless conversion between Decimal, Binary, Octal, and Hexadecimal.", github: "https://github.com/kavyaballa1020/HexaGenius-Calculator.git", demo: "https://hexagenius-calculator.onrender.com/" },
             { img: Resume, title: "Resume Builder", description: "A React JS web application for creating and customizing two resume designs with real-time content updates.", github: "https://github.com/kavyaballa1020/Resume-Builder-React.git", demo: "https://rb-react.vercel.app/" },
             { img: Markdown, title: "Markdown Editor", description: "A React-based Markdown editor with live preview for seamless editing and rendering of Markdown content.", github: "https://github.com/kavyaballa1020/Markdown-Editor-React.git", demo: "https://kav-markdown-editor.vercel.app/" },
             { img: SmartPond, title: "Smart Pond Monitoring System", description: "An IoT-based web application for remote monitoring of pond parameters, providing real-time data for effective management.", github: "https://github.com/kavyaballa1020/Fish-Pond-Monitoring-UI.git", demo: "https://fish-pond-monitoring-ui.vercel.app/" },
