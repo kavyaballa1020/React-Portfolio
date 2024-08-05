@@ -1,3 +1,4 @@
+/* General navbar styling */
 .navbar {
   position: fixed !important;
   display: flex !important;
@@ -12,6 +13,7 @@
   right: 0;
   background: transparent !important; 
 }
+
 .navbar-nav .nav-link {
   text-decoration: none !important;
   margin-right: 30px;
@@ -61,11 +63,14 @@
 .custom-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
 .navbar-collapse.show .navbar-nav {
   background-image: linear-gradient(to left, rgba(27, 20, 41, 0.769), rgba(20, 15, 35, 0.774)) !important;
-
 }
 
+/* Media Queries */
+
+/* For screens larger than 992px (desktops) */
 @media (min-width: 992px) {
   .custom-toggler {
     display: none; 
@@ -77,6 +82,7 @@
   }
 }
 
+/* For screens smaller than 992px (tablets and smaller devices) */
 @media (max-width: 991px) {
   .navbar-collapse {
     display: none;
@@ -102,8 +108,26 @@
     align-items: center;
     padding-top: 20px; 
   }
+
   .navbar-nav .nav-link {
     margin: 10px 0;
     color: white !important; 
+  }
+}
+
+/* For screens smaller than 768px (phones) */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important; /* Smaller font size for brand */
+    padding-left: 20px; /* Reduced padding for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1rem !important; /* Smaller font size for links */
+    margin-right: 20px; /* Reduced margin for links */
+  }
+
+  .custom-toggler {
+    font-size: 1.2rem; /* Slightly smaller font size for the toggler */
   }
 }
