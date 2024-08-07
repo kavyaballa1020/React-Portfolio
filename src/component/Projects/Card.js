@@ -3,33 +3,32 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import './projectCard.css'; // Ensure this file includes the styles from projects.css
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
+    <Card className="project-card">
       <Card.Img 
         variant="top" 
         src={props.imgPath} 
         alt="card-img" 
-        style={{ borderRadius: '20px' }} // Apply border-radius here
+        className="project-card-img" // Apply border-radius and other styles from CSS
       />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "left" }}> {/* Set text-align to left */}
+        <Card.Text className="project-card-text"> {/* Apply text-align from CSS */}
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        <Button variant="primary" href={props.ghLink} target="_blank" className="btn-github">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
-        {"\n"}
-        {"\n"}
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
+            className="btn-demo"
           >
             <CgWebsite /> &nbsp;
             {"Live"}
@@ -39,4 +38,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
