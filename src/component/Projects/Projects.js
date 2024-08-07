@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./Card";
 import Hexa from "../../Assets/Hexa.png";
 import Simple from "../../Assets/Simple.png";
-import NewProject1 from "../../Assets/Resume.png"; // Add paths to your new images
-import NewProject2 from "../../Assets/Markdown.png";
-import NewProject3 from "../../Assets/SmartPond.png";
+import Resume from "../../Assets/Resume.png"; // Add paths to your new images
+import Markdown from "../../Assets/Markdown.png";
+import SmartPond from "../../Assets/SmartPond.png";
 import './projects.css';
 
 function Projects() {
@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-col">
             <ProjectCard 
-              imgPath={NewProject1}
+              imgPath={Resume}
               isBlog={false}
               title="New Project 1"
               description="Description for New Project 1."
@@ -55,7 +55,7 @@ function Projects() {
 
           <Col md={4} className="project-col">
             <ProjectCard 
-              imgPath={NewProject2}
+              imgPath={Markdown}
               isBlog={false}
               title="New Project 2"
               description="Description for New Project 2."
@@ -66,7 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-col">
             <ProjectCard 
-              imgPath={NewProject3}
+              imgPath={SmartPond}
               isBlog={false}
               title="New Project 3"
               description="Description for New Project 3."
