@@ -1,6 +1,8 @@
 .project-card {
     margin: auto;
     padding: 20px;
+    width: 100% !important;
+    height: 100% !important;
     background: rgba(0, 0, 0, 0.1); /* Transparent dark background */
     border-radius: 20px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.055); /* Shadow effect */
