@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./Card";
 import Hexa from "../../Assets/Hexa.png";
 import Simple from "../../Assets/Simple.png";
-import Resume from "../../Assets/Resume.png"; // Add paths to your new images
+import Resume from "../../Assets/Resume.png";
 import Markdown from "../../Assets/Markdown.png";
 import SmartPond from "../../Assets/SmartPond.png";
 import './projects.css';
@@ -13,13 +13,14 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          <strong style={{ color: "violet" }}>  My Recent Works </strong>
+          <strong>My Recent Works</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p>
           Here are a few projects I've worked on recently.
         </p>
 
         <Row className="project-row">
+       
           <Col md={4} className="project-col">
             <ProjectCard
               imgPath={Hexa}
@@ -63,7 +64,6 @@ function Projects() {
               demoLink="https://new-project2-demo-link.com"
             />
           </Col>
-
           <Col md={4} className="project-col">
             <ProjectCard 
               imgPath={SmartPond}
@@ -74,6 +74,7 @@ function Projects() {
               demoLink="https://new-project3-demo-link.com"
             />
           </Col>
+         
         </Row>
       </Container>
     </Container>
