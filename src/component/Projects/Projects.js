@@ -31,6 +31,16 @@ function Projects() {
               demoLink="https://hexagenius-calculator.onrender.com/"
             />
           </Col>
+          <Col md={4} className="project-col">
+            <ProjectCard 
+              imgPath={Resume}
+              isBlog={false}
+              title="New Project 1"
+              description="Description for New Project 1."
+              ghLink="https://github.com/yourusername/new-project1"
+              demoLink="https://new-project1-demo-link.com"
+            />
+          </Col>
 
           <Col md={4} className="project-col">
             <ProjectCard 
@@ -43,17 +53,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-col">
-            <ProjectCard 
-              imgPath={Resume}
-              isBlog={false}
-              title="New Project 1"
-              description="Description for New Project 1."
-              ghLink="https://github.com/yourusername/new-project1"
-              demoLink="https://new-project1-demo-link.com"
-            />
-          </Col>
-
+         
           <Col md={4} className="project-col">
             <ProjectCard 
               imgPath={Markdown}
