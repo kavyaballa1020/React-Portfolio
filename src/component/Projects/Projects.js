@@ -35,8 +35,8 @@ function Projects() {
             <ProjectCard 
               imgPath={Resume}
               isBlog={false}
-              title="New Project 1"
-              description="Description for New Project 1."
+              title="Resume Builder"
+              description="This React JS-powered web application allows users to create and customize two distinct resume designs. With a dynamic interface, content entered on the left side instantly updates on the right, providing a real-time preview. It offers an intuitive and efficient way to craft polished, professional resumes."
               ghLink="https://github.com/yourusername/new-project1"
               demoLink="https://new-project1-demo-link.com"
             />
