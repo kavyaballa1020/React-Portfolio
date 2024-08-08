@@ -1,20 +1,42 @@
+.project-section {
+  padding: 60px 0;
+}
+
+.project-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-col {
+  margin-bottom: 20px;
+}
+
 .project-card {
   margin: auto;
   padding: 20px;
-  color: #fff !important;
-  background: none !important;
-  border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(243, 241, 241, 0.3); /* Shadow effect */
+  color: #333; /* Dark text color for readability */
+  background: #fff; /* White background color */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lighter shadow effect */
   transition: transform 0.3s ease-in-out;
+  max-width: 100%; /* Make sure it doesn't overflow */
 }
 
 .project-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
 }
 
 .project-card-img {
-  border-radius: 20px; /* Rounded corners for image */
+  border-radius: 15px; /* Rounded corners for image */
   width: 100%;
   height: auto;
 }
@@ -34,8 +56,4 @@
 
 .btn-demo {
   margin-left: 10px; /* Space between buttons */
-}
-.card{
-  background-color: none !important;
-  color: white ;
 }
