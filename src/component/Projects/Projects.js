@@ -5,6 +5,8 @@ import Hexa from "../../Assets/Hexa.png";
 import Resume from "../../Assets/Resume.png";
 import Markdown from "../../Assets/Markdown.png";
 import SmartPond from "../../Assets/SmartPond.png";
+import Blog from "../../Assets/Blog.png";
+import Gallery from "../../Assets/Gallery.png";
 import './projects.css';
 
 function Projects() {
@@ -57,6 +59,26 @@ function Projects() {
               description="Description for New Project 3."
               ghLink="https://github.com/yourusername/new-project3"
               demoLink="https://new-project3-demo-link.com"
+            />
+          </Col>
+          <Col md={6} className="project-col">
+            <ProjectCard
+              imgPath={Blog}
+              isBlog={false}
+              title="New Project 4"
+              description="Description for New Project 4."
+              ghLink="https://github.com/yourusername/new-project4"
+              demoLink="https://new-project4-demo-link.com"
+            />
+          </Col>
+          <Col md={6} className="project-col">
+            <ProjectCard
+              imgPath={Gallery}
+              isBlog={false}
+              title="New Project 5"
+              description="Description for New Project 5."
+              ghLink="https://github.com/yourusername/new-project5"
+              demoLink="https://new-project5-demo-link.com"
             />
           </Col>
         </Row>
