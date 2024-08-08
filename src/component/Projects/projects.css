@@ -1,7 +1,6 @@
 .project-card {
   margin: auto;
   padding: 20px;
-  background: none; /* Ensure the background is transparent */
   border-radius: 20px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
   transition: transform 0.3s ease-in-out;
@@ -28,6 +27,7 @@
   border-radius: 30px;
   font-size: 1rem;
   text-transform: uppercase;
+  border: none; /* Remove border from buttons */
 }
 
 .btn-demo {
