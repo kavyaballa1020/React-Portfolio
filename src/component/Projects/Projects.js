@@ -68,7 +68,7 @@ function Projects() {
               title="New Project 4"
               description="Description for New Project 4."
               ghLink="https://github.com/yourusername/new-project4"
-              demoLink="https://new-project4-demo-link.com"
+              demoLink="https://blog-app-node-76lm.onrender.com/blog"
             />
           </Col>
           <Col md={6} className="project-col">
