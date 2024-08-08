@@ -41,19 +41,6 @@ function Projects() {
               demoLink="https://new-project1-demo-link.com"
             />
           </Col>
-
-          <Col md={4} className="project-col">
-            <ProjectCard 
-              imgPath={Simple}
-              isBlog={false}
-              title="Simple Calculator"
-              description="This is a user-friendly Number System Calculator web application. It allows you to effortlessly convert numbers between different number systems, including Decimal, Binary, Octal, and Hexadecimal."
-              ghLink="https://github.com/kavyaballa1020/Simple-Calculator-CUTM?tab=readme-ov-file"
-              demoLink="https://simple-calculator-cutm.onrender.com/"
-            />
-          </Col>
-
-         
           <Col md={4} className="project-col">
             <ProjectCard 
               imgPath={Markdown}
