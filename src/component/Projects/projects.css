@@ -6,23 +6,11 @@
   text-align: center;
   margin-bottom: 40px;
   font-size: 3rem;
-  font-weight: bold;
+  color: #333;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.gradient-text-1 {
-  background: linear-gradient(to right, #f36f6f, #f5b042, #8e44ad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gradient-text-2 {
-  background: linear-gradient(to right, #8e44ad, #2980b9, #16a085);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gradient-text-3 {
+.gradient-text {
   background: linear-gradient(to right, #f36f6f, #f5b042);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
