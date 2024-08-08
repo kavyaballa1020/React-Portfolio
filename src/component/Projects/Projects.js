@@ -21,7 +21,7 @@ function Projects() {
         </p>
 
         <Row className="project-row">
-          <Col md={6} className="project-col">
+          <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
               imgPath={Hexa}
               isBlog={false}
@@ -31,17 +31,17 @@ function Projects() {
               demoLink="https://hexagenius-calculator.onrender.com/"
             />
           </Col>
-          <Col md={6} className="project-col">
+          <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
               imgPath={Resume}
               isBlog={false}
               title="Resume Builder"
-              description="This React JS-powered web application allows users to create and customize two distinct resume designs. With a dynamic interface, content entered on the left side instantly updates on the right, providing a real-time preview. It offers an intuitive and efficient way to craft polished, professional resumes."
+              description="This React JS web application lets users create and customize two resume designs. The dynamic interface updates content in real-time, offering a polished and professional resume crafting experience."
               ghLink="https://github.com/yourusername/new-project1"
               demoLink="https://new-project1-demo-link.com"
             />
           </Col>
-          <Col md={6} className="project-col">
+          <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
               imgPath={Markdown}
               isBlog={false}
@@ -51,7 +51,7 @@ function Projects() {
               demoLink="https://new-project2-demo-link.com"
             />
           </Col>
-          <Col md={6} className="project-col">
+          <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
               imgPath={SmartPond}
               isBlog={false}
@@ -61,7 +61,7 @@ function Projects() {
               demoLink="https://new-project3-demo-link.com"
             />
           </Col>
-          <Col md={6} className="project-col">
+          <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
               imgPath={Blog}
               isBlog={false}
@@ -71,7 +71,7 @@ function Projects() {
               demoLink="https://blog-app-node-76lm.onrender.com/blog"
             />
           </Col>
-          <Col md={6} className="project-col">
+          <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
               imgPath={Gallery}
               isBlog={false}
