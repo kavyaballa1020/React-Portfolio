@@ -45,10 +45,10 @@ function Projects() {
             <ProjectCard
               imgPath={Markdown}
               isBlog={false}
-              title="New Project 2"
-              description="Description for New Project 2."
+              title="Markdown Editor"
+              description="A React-based Markdown editor that allows users to write Markdown code on the left side and instantly see the rendered output on the right side. This interactive tool provides a seamless experience for editing and previewing Markdown content."
               ghLink="https://github.com/yourusername/new-project2"
-              demoLink="https://new-project2-demo-link.com"
+              demoLink="https://kav-markdown-editor.vercel.app/"
             />
           </Col>
           <Col xs={12} sm={6} md={4} className="project-col">
