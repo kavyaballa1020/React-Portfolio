@@ -3,7 +3,6 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-import './projectCard.css'; // Ensure this file includes the styles from projects.css
 
 function ProjectCards(props) {
   return (
