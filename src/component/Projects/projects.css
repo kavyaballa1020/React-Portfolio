@@ -1,9 +1,10 @@
 .project-card {
   margin: auto;
   padding: 20px;
-  color: #fff;
+  color: #fff !important;
+  background: none !important;
   border-radius: 20px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  box-shadow: 0 4px 8px rgba(243, 241, 241, 0.3); /* Shadow effect */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -33,4 +34,8 @@
 
 .btn-demo {
   margin-left: 10px; /* Space between buttons */
+}
+.card{
+  background-color: none !important;
+  color: white ;
 }
