@@ -5,8 +5,27 @@
 .project-heading {
   text-align: center;
   margin-bottom: 40px;
-  font-size: 2.5rem;
-  color: #333;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-text-1 {
+  background: linear-gradient(to right, #f36f6f, #f5b042, #8e44ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-2 {
+  background: linear-gradient(to right, #8e44ad, #2980b9, #16a085);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-3 {
+  background: linear-gradient(to right, #f36f6f, #f5b042);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .project-row {
@@ -22,27 +41,33 @@
 .project-card {
   margin: auto;
   padding: 20px;
-  color: white !important; /* Dark text color for readability */
-  background: none !important; /* White background color */
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lighter shadow effect */
+  color: white !important;
+  background: none !important;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
-  max-width: 100%; /* Make sure it doesn't overflow */
+  max-width: 100%;
 }
 
 .project-card:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .project-card-img {
-  border-radius: 15px; /* Rounded corners for image */
+  border-radius: 15px;
   width: 100%;
   height: auto;
 }
 
 .project-card-text {
-  text-align: left; /* Align text to the left */
+  text-align: left;
+}
+
+.project-card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .btn-github, .btn-demo {
@@ -51,9 +76,9 @@
   border-radius: 30px;
   font-size: 1rem;
   text-transform: uppercase;
-  border: none; /* Remove border from buttons */
+  border: none;
 }
 
 .btn-demo {
-  margin-left: 10px; /* Space between buttons */
+  margin-left: 10px;
 }
