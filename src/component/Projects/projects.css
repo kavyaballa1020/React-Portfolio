@@ -22,8 +22,8 @@
 .project-card {
   margin: auto;
   padding: 20px;
-  color: #333; /* Dark text color for readability */
-  background: #fff; /* White background color */
+  color: white !important; /* Dark text color for readability */
+  background: none !important; /* White background color */
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lighter shadow effect */
   transition: transform 0.3s ease-in-out;
