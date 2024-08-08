@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./Card";
 import Hexa from "../../Assets/Hexa.png";
-import Simple from "../../Assets/Simple.png";
 import Resume from "../../Assets/Resume.png";
 import Markdown from "../../Assets/Markdown.png";
 import SmartPond from "../../Assets/SmartPond.png";
@@ -20,8 +19,7 @@ function Projects() {
         </p>
 
         <Row className="project-row">
-       
-          <Col md={4} className="project-col">
+          <Col md={6} className="project-col">
             <ProjectCard
               imgPath={Hexa}
               isBlog={false}
@@ -31,8 +29,8 @@ function Projects() {
               demoLink="https://hexagenius-calculator.onrender.com/"
             />
           </Col>
-          <Col md={4} className="project-col">
-            <ProjectCard 
+          <Col md={6} className="project-col">
+            <ProjectCard
               imgPath={Resume}
               isBlog={false}
               title="Resume Builder"
@@ -41,8 +39,8 @@ function Projects() {
               demoLink="https://new-project1-demo-link.com"
             />
           </Col>
-          <Col md={4} className="project-col">
-            <ProjectCard 
+          <Col md={6} className="project-col">
+            <ProjectCard
               imgPath={Markdown}
               isBlog={false}
               title="New Project 2"
@@ -51,8 +49,8 @@ function Projects() {
               demoLink="https://new-project2-demo-link.com"
             />
           </Col>
-          <Col md={4} className="project-col">
-            <ProjectCard 
+          <Col md={6} className="project-col">
+            <ProjectCard
               imgPath={SmartPond}
               isBlog={false}
               title="New Project 3"
@@ -61,7 +59,6 @@ function Projects() {
               demoLink="https://new-project3-demo-link.com"
             />
           </Col>
-         
         </Row>
       </Container>
     </Container>
