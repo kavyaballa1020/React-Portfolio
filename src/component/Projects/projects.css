@@ -11,7 +11,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(to right, #f36f6f, #f5b042);
+  background: linear-gradient(to right, #cb00fd, #e451fe,rgb(93, 82, 242));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -32,7 +32,7 @@
   color: white !important;
   background: none !important;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1px 1px rgb(233, 131, 253);
   transition: transform 0.3s ease-in-out;
   max-width: 100%;
 }
