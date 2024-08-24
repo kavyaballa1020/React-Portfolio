@@ -53,7 +53,7 @@ function Projects() {
               imgPath={SmartPond}
               isBlog={false}
               title="Smart Pond Monitoring System"
-              description="Description for New Project 3."
+              description="The Smart Pond Monitoring System is an IoT-based web application that allows users to remotely monitor various pond parameters such as pH levels, water temperature, and water levels. It provides real-time data and insights for effective pond management and maintenance."
               ghLink="https://github.com/yourusername/new-project3"
               demoLink="https://new-project3-demo-link.com"
             />
