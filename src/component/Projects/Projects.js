@@ -62,7 +62,7 @@ function Projects() {
             <ProjectCard
               imgPath={Gallery}
               isBlog={false}
-              title="New Project 4"
+              title="Image Gallery"
               description="Description for New Project 4."
               ghLink="https://github.com/yourusername/new-project4"
               demoLink="https://blog-app-node-76lm.onrender.com/blog"
