@@ -63,7 +63,7 @@ function Projects() {
               imgPath={Gallery}
               isBlog={false}
               title="Image Gallery"
-              description="Description for New Project 4."
+              description="The image gallery is a responsive web component that automatically slides through multiple images when the video on button is clicked with navigation options for next and previous images. It’s designed to adjust seamlessly to various screen sizes for a consistent viewing experience."
               ghLink="https://github.com/yourusername/new-project4"
               demoLink="https://blog-app-node-76lm.onrender.com/blog"
             />
