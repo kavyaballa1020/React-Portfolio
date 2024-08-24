@@ -70,7 +70,7 @@ function Projects() {
           </Col>
           <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
-              imgPath={Gallery}
+              imgPath={Blog}
               isBlog={false}
               title="Blog App"
               description="The blog app, built with React, enables multiple users to log in, create, edit, and delete their posts. It provides a dynamic platform for user-generated content management with an intuitive interface."
