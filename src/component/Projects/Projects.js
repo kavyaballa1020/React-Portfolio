@@ -60,7 +60,7 @@ function Projects() {
           </Col>
           <Col xs={12} sm={6} md={4} className="project-col">
             <ProjectCard
-              imgPath={Blog}
+              imgPath={Gallery}
               isBlog={false}
               title="New Project 4"
               description="Description for New Project 4."
