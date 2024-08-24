@@ -52,7 +52,7 @@ function Projects() {
             <ProjectCard
               imgPath={SmartPond}
               isBlog={false}
-              title="New Project 3"
+              title="Smart Pond Monitoring System"
               description="Description for New Project 3."
               ghLink="https://github.com/yourusername/new-project3"
               demoLink="https://new-project3-demo-link.com"
