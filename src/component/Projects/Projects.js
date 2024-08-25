@@ -74,8 +74,8 @@ function Projects() {
               isBlog={false}
               title="Blog App"
               description="The blog app, built with React, enables multiple users to log in, create, edit, and delete their posts. It provides a dynamic platform for user-generated content management with an intuitive interface."
-              ghLink="https://github.com/yourusername/new-project5"
-              demoLink="https://new-project5-demo-link.com"
+              ghLink="https://github.com/kavyaballa1020/Blog-App-Node.git"
+              demoLink="https://blog-app-node-76lm.onrender.com/"
             />
           </Col>
         </Row>
