@@ -1,19 +1,29 @@
 .project-section {
-  padding: 60px 0;
+  padding: 80px 0;
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
 }
 
 .project-heading {
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 3rem;
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+  font-weight: 700;
   color: #333;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-subheading {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  color: #666;
 }
 
 .gradient-text {
-  background: linear-gradient(to right, #cb00fd, #e451fe,rgb(93, 82, 242));
+  background: linear-gradient(45deg, #cb00fd, #e451fe, #5d52f2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .project-row {
@@ -23,50 +33,70 @@
 }
 
 .project-col {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .project-card {
-  margin: auto;
-  padding: 20px;
-  color: white !important;
-  background: none !important;
-  border-radius: 15px;
-  box-shadow: 1px 1px 1px 1px rgb(233, 131, 253);
-  transition: transform 0.3s ease-in-out;
-  max-width: 100%;
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .project-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .project-card-img {
-  border-radius: 15px;
+  border-radius: 20px 20px 0 0;
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
 }
 
-.project-card-text {
-  text-align: left;
+.project-card-body {
+  padding: 20px;
 }
 
 .project-card-title {
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
   margin-bottom: 10px;
 }
 
-.btn-github, .btn-demo {
-  background: linear-gradient(to top, rgba(243, 111, 111, 0.8), rgba(245, 176, 66, 0.8));
-  color: #fff;
-  border-radius: 30px;
+.project-card-description {
+  color: #666;
   font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn-github, .btn-demo {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
   text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-github {
+  background: linear-gradient(45deg, #333, #666);
+  color: #fff;
   border: none;
+  margin-right: 10px;
 }
 
 .btn-demo {
-  margin-left: 10px;
+  background: linear-gradient(45deg, #cb00fd, #5d52f2);
+  color: #fff;
+  border: none;
+}
+
+.btn-github:hover, .btn-demo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
