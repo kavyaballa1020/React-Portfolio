@@ -59,12 +59,33 @@
 .project-card-body {
   padding: 20px;
 }
-
 .project-card-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.project-card-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, #cb00fd, #e451fe);
+  transition: width 0.3s ease;
+}
+
+.project-card:hover .project-card-title {
+  color: #cb00fd;
+}
+
+.project-card:hover .project-card-title::after {
+  width: 100%;
 }
 
 .project-card-description {
