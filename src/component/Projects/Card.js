@@ -11,11 +11,11 @@ function ProjectCards(props) {
         variant="top" 
         src={props.imgPath} 
         alt="card-img" 
-        className="project-card-img" // Apply border-radius and other styles from CSS
+        className="project-card-img" 
       />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text className="project-card-text"> {/* Apply text-align from CSS */}
+        <Card.Text className="project-card-text"> 
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank" className="btn-github">
