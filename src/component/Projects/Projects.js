@@ -26,7 +26,7 @@ function Projects() {
             { img: Markdown, title: "Markdown Editor", description: "A React-based Markdown editor with live preview for seamless editing and rendering of Markdown content.", github: "https://github.com/yourusername/new-project2", demo: "https://kav-markdown-editor.vercel.app/" },
             { img: SmartPond, title: "Smart Pond Monitoring System", description: "An IoT-based web application for remote monitoring of pond parameters, providing real-time data for effective management.", github: "https://github.com/yourusername/new-project3", demo: "https://new-project3-demo-link.com" },
             { img: Gallery, title: "Image Gallery", description: "A responsive web component featuring automatic image sliding and navigation options, adaptable to various screen sizes.", github: "https://github.com/yourusername/new-project4", demo: "https://blog-app-node-76lm.onrender.com/blog" },
-            { img: Blog, title: "Blog App", description: "A React-based blog platform enabling multiple users to manage their posts with create, edit, and delete functionalities.", github: "https://github.com/yourusername/new-project5", demo: "https://new-project5-demo-link.com" },
+            { img: Blog, title: "Blog App", description: "A React-based blog platform enabling multiple users to manage their posts with create, edit, and delete functionalities.", github: "https://github.com/kavyaballa1020/Blog-App-Node.git", demo: "https://blog-app-node-76lm.onrender.com/" },
           ].map((project, index) => (
             <Col key={index} xs={12} sm={6} md={4} className="project-col">
               <ProjectCard
