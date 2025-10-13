@@ -4,6 +4,8 @@ import { FaJava, FaPython, FaCss3, FaHtml5} from "react-icons/fa";
 import { DiJavascript1, DiNodejsSmall, DiReact, DiTerminal, DiGit, DiGithubBadge, DiMongodb, DiMysql, DiPostgresql, DiVisualstudio, DiSass } from "react-icons/di";
 import { SiBootstrap, SiPhp, SiFlask, SiSqlite, SiVercel, SiNetlify, SiRender, SiExpress, SiJquery, SiTypescript, SiSpringboot, SiGraphql, SiQiskit } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiSap } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
 import "./Skills.css";
 import { FaAngular, FaAws, FaC } from "react-icons/fa6";
 
@@ -21,11 +23,19 @@ const Skills = () => {
         <Col className="col-skills">
           <FaJava className="skill-icon java" />
         </Col>
-        <Col className="col-skills">
+       
+      </Row>
+      <Row>
+       <Col className="col-skills">
           <FaPython className="skill-icon python" />
         </Col>
-      </Row>
-
+  <Col className="col-skills">
+    <SiSap className="skill-icon sap" />
+  </Col>
+  <Col className="col-skills">
+    <FaDatabase className="skill-icon abap" />
+  </Col>
+</Row>
       <h2 className="skills-heading">Web Technologies</h2>
       <Row className="row WT">
         <Row>
@@ -49,39 +59,20 @@ const Skills = () => {
           <Col className="col-skills">
             <FaAngular className="skill-icon angular" />
           </Col>
-          <Col className="col-skills">
-            <DiSass className="skill-icon sass" />
-          </Col>
+          
           <Col className="col-skills">
             <SiTypescript className="skill-icon typescript" />
           </Col>
         </Row>
         <Row>
           <Col className="col-skills">
-            <SiJquery className="skill-icon jquery" />
-          </Col>
-          <Col className="col-skills">
-            <SiFlask className="skill-icon flask" />
-          </Col>
-          <Col className="col-skills">
             <DiNodejsSmall className="skill-icon nodejs" />
           </Col>
           <Col className="col-skills">
             <SiExpress className="skill-icon express" />
           </Col>
-        </Row>
-        <Row>
-          <Col className="col-skills">
-            <SiPhp className="skill-icon php" />
-          </Col>
           <Col className="col-skills">
             <SiSpringboot className="skill-icon springboot" />
-          </Col>
-          <Col className="col-skills">
-            <SiGraphql className="skill-icon graphql" />
-          </Col>
-          <Col className="col-skills">
-            <FaAws className="skill-icon aws" />
           </Col>
         </Row>
       </Row>
