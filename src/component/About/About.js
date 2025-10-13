@@ -8,10 +8,9 @@ function About() {
       <p className='About'>
         Hi there! 👋🏻<br/>
         I'm <strong style={{color:"violet"}}>Balla Kavya</strong><br/>
-        I am a web developer, working in both, backend and frontend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology.
-        I am currently pursuing BTech in Computer Science Engineering at Centurion University.
-        I like to code matters from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done.
-        I value minimalistic designs, thoughtful branding of the content, and customer relatable experience.
+        I am a passionate Full-Stack Web Developer with experience in building scalable and user-friendly web applications using React.js, Angular, Spring Boot, and SAP ABAP. I have a strong foundation in Java, Python, data structures, and REST API design, and I enjoy solving complex problems while creating efficient and impactful software solutions.
+
+I’ve worked on IoT systems, e-commerce platforms, and enterprise-level applications, and I value minimalistic design, responsive UI, and seamless user experience. I’m currently pursuing B.Tech in Computer Science Engineering at Centurion University, and I’m always excited to explore new technologies and contribute to meaningful projects.
       </p>
     </div>
   )
