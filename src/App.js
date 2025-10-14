@@ -6,6 +6,7 @@ import Skills from './component/Skills/Skills';
 import Project from './component/Projects/Projects.js';
 import ResumeSection from './component/Resume/Resume.js'; // Import the ResumeSection component
 import StarsCanvas from './component/StarCanvas.js';
+import Contact from './component/Contact/Contact.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='skills' element={<Skills />} />
         <Route path='projects' element={<Project />} />
         <Route path='resume' element={<ResumeSection />} /> 
+        <Route path='contact' element={<Contact />} />
       </Routes>
     </div>
   );
