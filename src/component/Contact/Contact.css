@@ -1,0 +1,146 @@
+.contact-section {
+    padding: 80px 20px;
+    color: #e6e6e6;
+    /* Light text for dark background */
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff;
+    /* Pure white for heading */
+}
+
+.contact-subtitle {
+    font-size: 1.1rem;
+    color: #c5c5c5;
+    /* Softer gray for subtitle */
+    margin-bottom: 40px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+/* Left side contact info */
+.contact-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1rem;
+    color: #eaeaea;
+}
+
+.info-icon {
+    color: #4da8ff;
+    /* Light blue accent */
+    font-size: 1.3rem;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #4da8ff;
+    transition: 0.3s;
+}
+
+.contact-info a:hover {
+    color: #82cfff;
+    text-decoration: underline;
+}
+
+/* Right side contact form */
+.contact-form {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.08);
+    /* Transparent card on dark bg */
+    padding: 25px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #e0e0e0;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4da8ff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4da8ff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #007bff;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        text-align: center;
+        align-items: center;
+    }
+
+    .info-item {
+        justify-content: center;
+    }
+}
